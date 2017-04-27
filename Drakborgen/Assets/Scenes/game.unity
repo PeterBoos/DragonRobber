@@ -631,7 +631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 002da20b8283a544f8dcf651577dd497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomTile: {fileID: 1134841151850714, guid: 2300c608b90d99048a6885a6b71cc5f5, type: 2}
+  defaultRoomTile: {fileID: 0}
 --- !u!4 &756649434
 Transform:
   m_ObjectHideFlags: 0

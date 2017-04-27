@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6500000}
   - component: {fileID: 114346194631733518}
   m_Layer: 0
-  m_Name: 6FaceCube 1
+  m_Name: Room-D
   m_TagString: RoomTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 65800114328312298}
   - component: {fileID: 114923690666373668}
   m_Layer: 0
-  m_Name: CorridorRL
+  m_Name: Corridor-RL
   m_TagString: RoomTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
