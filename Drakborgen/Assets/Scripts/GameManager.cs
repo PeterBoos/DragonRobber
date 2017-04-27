@@ -59,4 +59,9 @@ public class GameManager : MonoBehaviour {
 
 		print("Player at roomTile.position: " + roomTiles.SingleOrDefault(item => item.transform.position == playerPositionNormal).transform.position);
 	}
+
+	public void RevealRoom(RoomTile room)
+	{
+		// Switch from modelPlaceholder to modelRoom
+	}
 }

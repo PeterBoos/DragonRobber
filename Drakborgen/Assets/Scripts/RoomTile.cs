@@ -5,7 +5,8 @@ using System.Linq;
 
 public class RoomTile : MonoBehaviour {
 
-	public GameObject model;
+	public GameObject modelPlaceholder;
+	public GameObject modelRoom
 	public bool hidden = true;
 	public Shader shader_default;
 	public Shader shader_outlined;
