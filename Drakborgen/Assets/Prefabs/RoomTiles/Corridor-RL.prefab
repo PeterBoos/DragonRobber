@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4260384407448280}
   - component: {fileID: 65800114328312298}
+  - component: {fileID: 114923690666373668}
   m_Layer: 0
   m_Name: CorridorRL
   m_TagString: RoomTile
@@ -472,3 +473,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114923690666373668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1272982239724672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013d62bddbf331041aa3f9a05e49d418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  model: {fileID: 0}
+  hidden: 1
+  shader_default: {fileID: 0}
+  shader_outlined: {fileID: 0}
+  renderer: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  playerPresent: 0
+  pathUp: 0
+  pathRight: 1
+  pathDown: 0
+  pathLeft: 1

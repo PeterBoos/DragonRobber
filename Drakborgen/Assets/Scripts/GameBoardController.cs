@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GameBoardController : MonoBehaviour {
 
-	public GameObject roomTile;
+	public GameObject defaultRoomTile;
+	public RoomTile[,] rooms;
 
 	// Use this for initialization
 	void Start () {
@@ -20,9 +21,16 @@ public class GameBoardController : MonoBehaviour {
 		var y = 0;		
 		for (var x = 0; x < width; x++){
 			for (var z = 0; z < height; z++){
-				GameObject tile = Instantiate(roomTile, new Vector3(x, y, z), Quaternion.Euler(0, 180, 0)) as GameObject;
+				GameObject tile = Instantiate(defaultRoomTile, new Vector3(x, y, z), Quaternion.Euler(0, 180, 0)) as GameObject;
 				tile.transform.parent = transform;
 				tile.GetComponent<Renderer>().material.shader = Shader.Find("Diffuse");
+			}
+		}
+
+		rooms = new RoomTile[width, height];
+		for (var x = 0; x < width; x++){
+			for (var z = 0; z < height; z++){
+				// Randomize and load roomTiles here
 			}
 		}
 	}
